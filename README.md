@@ -3,3 +3,4 @@ Comparing APIs across languages.
 
 Current languages supported:
 - Python
+- Golang
