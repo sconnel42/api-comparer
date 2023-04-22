@@ -10,6 +10,8 @@ packages = [{include = "api_comparer_python"}]
 python = "^3.11"
 fastapi = "^0.89.1"
 uvicorn = {extras = ["standard"], version = "^0.20.0"}
+sqlalchemy = "^2.0.10"
+psycopg2-binary = "^2.9.6"
 
 
 [tool.poetry.group.dev.dependencies]
