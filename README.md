@@ -7,3 +7,10 @@ Comparing APIs across languages. To compare all the languages against a single e
 Current languages supported:
 - Python
 - Golang
+
+
+TODO:
+- Add deep-ping endpoint to Golang server
+- Add deep-ping to compare.sh
+- Add a bunch of data to the DBs
+- Add an endpoint that does complex DB actions
