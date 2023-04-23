@@ -2,7 +2,7 @@
 
 PYTHON_PORT=8000
 GOLANG_PORT=8080
-ENDPOINT="/ping"
+ENDPOINT="/deep-ping"
 
 # A function to check if the server is running
 is_server_running() {

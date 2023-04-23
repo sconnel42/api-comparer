@@ -10,7 +10,6 @@ Current languages supported:
 
 
 TODO:
-- Add deep-ping endpoint to Golang server
-- Add deep-ping to compare.sh
 - Add a bunch of data to the DBs
+- Add tests for both APIs
 - Add an endpoint that does complex DB actions

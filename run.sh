@@ -1,8 +1,10 @@
-DB_USER="postgres"
-DB_PASS="samplepassword"
-DB_HOST="localhost"
-DB_PORT="5432"
-DB_NAME="postgres"
+# DB
+export DB_USER="postgres"
+export DB_PASS="samplepassword"
+export DB_HOST="localhost"
+export DB_PORT="5432"
+export DB_NAME="postgres"
+export DATABASE_URL="postgresql://${DB_USER}:${DB_PASS}@${DB_HOST}:${DB_PORT}/${DB_NAME}"
 
 options=()
 
@@ -18,7 +20,7 @@ stop_db() {
 
 options+=("connect - Connect to the DB using psql")
 connect() {
-    psql postgresql://${DB_USER}:${DB_PASS}@${DB_HOST}:${DB_PORT}/${DB_NAME}
+    psql ${DATABASE_URL}
 }
 
 options+=("cleanup - Removes any DB resources")
